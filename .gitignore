@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build outputs
+dist/
+build/
+*.js.map
+*.d.ts
+
+# Extension packaging
+*.crx
+*.pem
+*.zip
+
+# Environment & secrets
+.env
+.env.local
+.env.production
+extension-key.json
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+
+# IDE & Editor Settings
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Test outputs
+coverage/
+test-results/
